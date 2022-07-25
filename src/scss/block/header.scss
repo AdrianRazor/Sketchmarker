@@ -1,0 +1,52 @@
+.header {
+  padding: 20px 0;
+  margin-bottom: 13px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 22px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: flex-end;
+    gap: 0 22px;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+  }
+
+  &__link {
+    display: flex;
+  }
+
+  &__count {
+    position: absolute;
+    bottom: 6px;
+    left: -7px;
+    z-index: 10;
+
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    border: 2px solid var(--white);
+    background-color: var(--red);
+
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    color: var(--white);
+
+    &--blue {
+      background-color: var(--blue);
+    }
+  }
+}

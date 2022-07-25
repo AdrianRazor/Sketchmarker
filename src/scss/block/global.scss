@@ -1,0 +1,24 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --red: #ff3b30;
+  --blue: #007aff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html.block {
+  overflow: hidden;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.hidden {
+  display: none !important;
+}
