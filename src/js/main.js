@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const swiperStart = new Swiper(".swiper", {
       loop: true,
       allowTouchMove: true,
+      speed: 800,
+      autoplay: {
+        delay: 5000,
+      },
 
       pagination: {
         el: ".start__pagination",
