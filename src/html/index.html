@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.min.css" />
     <title>Sketchmarker</title>
   </head>
@@ -58,13 +59,103 @@
     </header>
 
     <main class="main">
-      <div class="container"></div>
+      <section class="start">
+        <div class="container start__container swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide start__banner">
+              <img src="img/slide-1.jpg" alt="sketchmarker banner" />
+            </div>
+            <div class="swiper-slide start__banner">
+              <img src="img/slide-2.jpg" alt="sketchmarker banner" />
+            </div>
+            <div class="swiper-slide start__banner">
+              <img src="img/slide-3.jpg" alt="sketchmarker banner" />
+            </div>
+            <div class="swiper-slide start__banner">
+              <img src="img/slide-4.jpg" alt="sketchmarker banner" />
+            </div>
+            <div class="swiper-slide start__banner">
+              <img src="img/slide-5.jpg" alt="sketchmarker banner" />
+            </div>
+          </div>
+
+          <div class="start__pagination"></div>
+
+          <div class="start__btn-prev">
+            <svg class="icon" width="12" height="20">
+              <use xlink:href="img/sprite.svg#arrowLeft"></use>
+            </svg>
+          </div>
+          <div class="start__btn-next">
+            <svg class="icon" width="12" height="20">
+              <use xlink:href="img/sprite.svg#arrowRight"></use>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="category">
+        <div class="container">
+          <h2 class="title category__title">category</h2>
+          <ul class="category__list">
+            <li class="category__item">
+              <a href="#" class="category__link">
+                <h3 class="category__name">SKETCHMARKER BRUSH PRO</h3>
+                <svg class="icon" width="24" height="16">
+                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="category__item">
+              <a href="#" class="category__link">
+                <h3 class="category__name">SKETCHMARKER BASIK LINE</h3>
+                <svg class="icon" width="24" height="16">
+                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="category__item">
+              <a href="#" class="category__link">
+                <h3 class="category__name">SKETCHMARKER AQUA</h3>
+                <svg class="icon" width="24" height="16">
+                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="category__item">
+              <a href="#" class="category__link">
+                <h3 class="category__name">SKETCHMARKER PENS</h3>
+                <svg class="icon" width="24" height="16">
+                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="category__item">
+              <a href="#" class="category__link">
+                <h3 class="category__name">SKETCHMARKER SKETCHBOOK</h3>
+                <svg class="icon" width="24" height="16">
+                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="category__item">
+              <a href="#" class="category__link">
+                <h3 class="category__name">SKETCHMARKER ACCESSOIRES</h3>
+                <svg class="icon" width="24" height="16">
+                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
       <div class="container"></div>
     </footer>
 
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,60 @@
+.start {
+  &__container {
+    position: relative;
+    padding: 0;
+  }
+
+  &__banner {
+    cursor: grab;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  &__pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0 13px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 10;
+  }
+
+  &__bullet {
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    background-color: var(--pagination);
+
+    &--active {
+      background-color: var(--blue);
+    }
+  }
+
+  &__btn-prev,
+  &__btn-next {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: var(--white);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    padding-left: 23px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+    z-index: 10;
+  }
+
+  &__btn-next {
+    left: initial;
+    right: 40px;
+    padding-left: 25px;
+  }
+}
