@@ -1,9 +1,10 @@
 .study {
   padding-top: 43px;
+  background-color: #f9f9f9;
 
   &__title {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 36px;
   }
 
   &__filters {
@@ -19,7 +20,7 @@
   &__filter {
     display: flex;
     align-items: center;
-    gap: 0 15px;
+    gap: 0 22px;
   }
 
   &__name {

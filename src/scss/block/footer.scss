@@ -1,6 +1,6 @@
 .footer {
-  padding-top: 65px;
-  padding-bottom: 60px;
+  padding-top: 62px;
+  padding-bottom: 64px;
   background-color: #f9f9f9;
 }
 
@@ -9,13 +9,14 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 0 20px;
-  margin-bottom: 90px;
+  padding-right: 46px;
+  margin-bottom: 94px;
 }
 
 .footer__list {
   display: flex;
   flex-direction: column;
-  gap: 16px 0;
+  gap: 13px 0;
 }
 
 .footer__name {
