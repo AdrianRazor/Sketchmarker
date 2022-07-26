@@ -1,0 +1,40 @@
+.study {
+  padding-top: 43px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  &__filters {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--line);
+
+    display: flex;
+    align-items: center;
+    gap: 0 32px;
+  }
+
+  &__filter {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+  }
+
+  &__name {
+    opacity: 0.5;
+  }
+
+  &__dropdown {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+    cursor: pointer;
+  }
+
+  &__wrapper {
+    display: flex;
+    margin: 0 -60px;
+  }
+}
