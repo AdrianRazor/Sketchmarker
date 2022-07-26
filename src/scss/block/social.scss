@@ -1,0 +1,13 @@
+.social {
+  display: flex;
+  align-items: center;
+  gap: 0 22px;
+
+  &__link {
+    display: flex;
+  }
+
+  &__icon {
+    opacity: 0.2;
+  }
+}
