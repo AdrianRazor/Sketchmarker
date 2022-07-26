@@ -147,6 +147,15 @@ body {
   justify-content: center;
 }
 
+.btn--outline {
+  color: var(--white);
+  border: 1px solid var(--black);
+}
+
+.btn--h60 {
+  height: 60px;
+}
+
 .icon {
   fill: var(--black);
 }
@@ -611,6 +620,78 @@ body {
 
 .lesson__count {
   font-size: 13px;
+}
+
+.subscribe {
+  padding-top: 84px;
+  padding-bottom: 93px;
+  background-color: #f1f1f1;
+}
+
+.subscribe__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.subscribe__title {
+  margin-bottom: 10px;
+}
+
+.subscribe__text {
+  font-size: 20px;
+  opacity: 0.5;
+  margin-bottom: 36px;
+}
+
+.subscribe__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0 25px;
+}
+
+.subscribe__input {
+  width: 405px;
+  padding: 16px 24px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  font-size: 20px;
+}
+
+.subscribe__input::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+
+.subscribe__input::-moz-placeholder {
+  color: #bdbdbd;
+}
+
+.subscribe__input:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+
+.subscribe__input::-ms-input-placeholder {
+  color: #bdbdbd;
+}
+
+.subscribe__input::placeholder {
+  color: #bdbdbd;
+}
+
+.subscribe__btn {
+  width: 173px;
+  font-size: 20px;
 }
 
 @media (max-width: 767px) {
