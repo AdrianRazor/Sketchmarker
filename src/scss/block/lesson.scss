@@ -45,20 +45,4 @@
     color: var(--gray);
     margin-bottom: 24px;
   }
-
-  &__icons {
-    display: flex;
-    align-items: center;
-    gap: 0 22px;
-  }
-
-  &__box {
-    display: flex;
-    align-items: center;
-    gap: 0 8px;
-  }
-
-  &__count {
-    font-size: 13px;
-  }
 }

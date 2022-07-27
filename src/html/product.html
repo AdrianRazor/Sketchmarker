@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/main.min.css" />
-    <title>Sketchmarker</title>
+    <title>Product</title>
   </head>
 
   <body>
@@ -20,7 +20,7 @@
         <nav class="nav">
           <ul class="nav__list">
             <li class="text nav__item">
-              <a href="product.html" class="nav__link">Продукция</a>
+              <a href="product.html" class="nav__link active">Продукция</a>
             </li>
             <li class="text nav__item">
               <a href="catalog.html" class="nav__link">Магазин</a>
@@ -68,100 +68,191 @@
     </header>
 
     <main class="main">
-      <section class="start">
-        <div class="container start__container swiper swiperStart">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide start__banner">
-              <img src="img/slide-1.jpg" alt="sketchmarker banner" />
-            </div>
-            <div class="swiper-slide start__banner">
-              <img src="img/slide-2.jpg" alt="sketchmarker banner" />
-            </div>
-            <div class="swiper-slide start__banner">
-              <img src="img/slide-3.jpg" alt="sketchmarker banner" />
-            </div>
-            <div class="swiper-slide start__banner">
-              <img src="img/slide-4.jpg" alt="sketchmarker banner" />
-            </div>
-            <div class="swiper-slide start__banner">
-              <img src="img/slide-5.jpg" alt="sketchmarker banner" />
-            </div>
-          </div>
-
-          <div class="start__pagination"></div>
-
-          <div class="start__btn-prev">
-            <svg class="icon" width="12" height="20">
-              <use xlink:href="img/sprite.svg#arrowLeft"></use>
-            </svg>
-          </div>
-          <div class="start__btn-next">
-            <svg class="icon" width="12" height="20">
-              <use xlink:href="img/sprite.svg#arrowRight"></use>
-            </svg>
-          </div>
-        </div>
-      </section>
-
-      <section class="category">
+      <section class="about">
         <div class="container">
-          <h2 class="title category__title">category</h2>
-          <ul class="category__list">
-            <li class="category__item">
-              <a href="#" class="category__link">
-                <h3 class="category__name">SKETCHMARKER BRUSH PRO</h3>
-                <svg class="icon" width="24" height="16">
-                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
-                </svg>
-              </a>
+          <ul class="crumbs about__crumbs">
+            <li class="crumbs__item">
+              <a href="#" class="crumbs__link">Home</a>
             </li>
-            <li class="category__item">
-              <a href="#" class="category__link">
-                <h3 class="category__name">SKETCHMARKER BASIK LINE</h3>
-                <svg class="icon" width="24" height="16">
-                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
-                </svg>
-              </a>
+            <li class="crumbs__item">
+              <a href="#" class="crumbs__link">Markers</a>
             </li>
-            <li class="category__item">
-              <a href="#" class="category__link">
-                <h3 class="category__name">SKETCHMARKER AQUA</h3>
-                <svg class="icon" width="24" height="16">
-                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="category__item">
-              <a href="#" class="category__link">
-                <h3 class="category__name">SKETCHMARKER PENS</h3>
-                <svg class="icon" width="24" height="16">
-                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="category__item">
-              <a href="#" class="category__link">
-                <h3 class="category__name">SKETCHMARKER SKETCHBOOK</h3>
-                <svg class="icon" width="24" height="16">
-                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="category__item">
-              <a href="#" class="category__link">
-                <h3 class="category__name">SKETCHMARKER ACCESSOIRES</h3>
-                <svg class="icon" width="24" height="16">
-                  <use xlink:href="img/sprite.svg#arrowRightLong"></use>
-                </svg>
-              </a>
+            <li class="crumbs__item">
+              <a href="#" class="crumbs__link">Sketchmarker</a>
             </li>
           </ul>
+
+          <div class="about__wrapper">
+            <div class="about__photos">
+              <div class="swiper swiperTop about__slider">
+                <div class="swiper-wrapper">
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-1.jpg" />
+                  </div>
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-2.jpg" />
+                  </div>
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-3.jpg" />
+                  </div>
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-4.jpg" />
+                  </div>
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-5.jpg" />
+                  </div>
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-3.jpg" />
+                  </div>
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-2.jpg" />
+                  </div>
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-1.jpg" />
+                  </div>
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-5.jpg" />
+                  </div>
+                  <div class="about__img-big swiper-slide">
+                    <img src="img/product-4.jpg" />
+                  </div>
+                </div>
+                <button class="about__zoom">
+                  <svg class="icon" width="24" height="25">
+                    <use xlink:href="img/sprite.svg#zoom"></use>
+                  </svg>
+                </button>
+              </div>
+              <div thumbsSlider="" class="swiper swiperBottom">
+                <div class="swiper-wrapper">
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-1.jpg" />
+                  </div>
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-2.jpg" />
+                  </div>
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-3.jpg" />
+                  </div>
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-4.jpg" />
+                  </div>
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-5.jpg" />
+                  </div>
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-3.jpg" />
+                  </div>
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-2.jpg" />
+                  </div>
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-1.jpg" />
+                  </div>
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-5.jpg" />
+                  </div>
+                  <div class="about__img-small swiper-slide">
+                    <img src="img/product-4.jpg" />
+                  </div>
+                </div>
+                <div class="about__btn-prev">
+                  <svg class="icon" width="12" height="20">
+                    <use xlink:href="img/sprite.svg#arrowLeft"></use>
+                  </svg>
+                </div>
+                <div class="about__btn-next">
+                  <svg class="icon" width="12" height="20">
+                    <use xlink:href="img/sprite.svg#arrowRight"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="about__info">
+              <div class="about__top">
+                <h1 class="title about__title">
+                  SKETCHMARKER BRUSH PRO (400 COLORS, 2 NIBS: BRUSH/BROAD)
+                </h1>
+                <div class="about__rating">
+                  <div class="rating">
+                    <svg class="rating__star filled" width="20" height="19">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="rating__star filled" width="20" height="19">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="rating__star filled" width="20" height="19">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="rating__star filled" width="20" height="19">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <svg class="rating__star" width="20" height="19">
+                      <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                  </div>
+                  <p class="text">960 reviews</p>
+                </div>
+              </div>
+              <div class="about__bottom">
+                <div class="about__block">
+                  <p class="text">
+                    Cost per 1 item:
+                    <span class="title about__price">13 $</span>
+                  </p>
+                  <p class="text">
+                    List Price:
+                    <span class="title about__oldprice">15 $</span>
+                  </p>
+                </div>
+                <button class="btn btn--h60 about__btn">Выбрать цвет</button>
+                <p class="text about__share">Поделится:</p>
+                <div class="about__actions">
+                  <div class="about__social">
+                    <a href="#" class="about__link">
+                      <svg class="icon" width="30" height="30">
+                        <use xlink:href="img/sprite.svg#facebookSquare"></use>
+                      </svg>
+                    </a>
+                    <a href="#" class="about__link">
+                      <svg class="icon" width="30" height="30">
+                        <use xlink:href="img/sprite.svg#vkontakte"></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="views">
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="24" height="18">
+                        <use xlink:href="img/sprite.svg#views"></use>
+                      </svg>
+                      <p class="views__count">36</p>
+                    </a>
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="21" height="21">
+                        <use xlink:href="img/sprite.svg#comments"></use>
+                      </svg>
+                      <p class="views__count">4</p>
+                    </a>
+                  </div>
+                  <div class="about__favorites">
+                    <p class="text">В избраное</p>
+                    <button class="about__heart">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#heart"></use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="popular popular--padding">
+      <section class="popular">
         <div class="container">
-          <h2 class="title popular__title">популярные товары</h2>
+          <p class="popular__subtitle">Возможно вам будет интересно</p>
+          <h2 class="title popular__title">С этим товаром часто покупают</h2>
           <div class="popular__wrapper">
             <div class="card">
               <div class="card__img">
@@ -284,6 +375,25 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <div class="container subscribe__container">
+          <h2 class="title subscribe__title">Let's Keep In Touch</h2>
+          <p class="text subscribe__text">
+            Subscribe to receive special offers, giveaways, and exclusive deals.
+          </p>
+          <form class="subscribe__form" action="#" method="post">
+            <input
+              class="subscribe__input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="hello@gmail.com"
+            />
+            <button class="btn btn--h60 subscribe__btn">Subscribe</button>
+          </form>
         </div>
       </section>
 
@@ -468,25 +578,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section class="subscribe">
-        <div class="container subscribe__container">
-          <h2 class="title subscribe__title">Let's Keep In Touch</h2>
-          <p class="text subscribe__text">
-            Subscribe to receive special offers, giveaways, and exclusive deals.
-          </p>
-          <form class="subscribe__form" action="#" method="post">
-            <input
-              class="subscribe__input"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="hello@gmail.com"
-            />
-            <button class="btn btn--h60 subscribe__btn">Subscribe</button>
-          </form>
         </div>
       </section>
     </main>

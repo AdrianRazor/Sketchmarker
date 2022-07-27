@@ -1,0 +1,12 @@
+.rating {
+  display: flex;
+  align-items: center;
+
+  &__star {
+    fill: #d4d4d4;
+
+    &.filled {
+      fill: #ffd200;
+    }
+  }
+}

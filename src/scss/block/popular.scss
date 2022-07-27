@@ -1,5 +1,13 @@
 .popular {
-  padding: 60px 0;
+  &--padding {
+    padding: 60px 0;
+  }
+
+  &__subtitle {
+    text-align: center;
+    opacity: 0.5;
+    margin-bottom: 12px;
+  }
 
   &__title {
     text-align: center;
