@@ -1,25 +1,27 @@
 .catalog {
-  padding-top: 18px;
-  padding-bottom: 56px;
+  padding-bottom: 54px;
 
   &__crumbs {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   &__title {
     font-size: 70px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
   }
 
   &__sort {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
   }
 
   &__wrapper {
-    margin: 0 -60px;
+    margin: 0 -60px 42px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    margin-bottom: 44px;
+  }
+
+  &__pagination {
+    padding-left: 28px;
   }
 }
