@@ -1,0 +1,19 @@
+.dropdown {
+  max-width: 420px;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px 28px;
+  }
+
+  &__current {
+    font-size: 20px;
+  }
+}

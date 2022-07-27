@@ -1,0 +1,128 @@
+.color {
+  padding-top: 35px;
+  padding-bottom: 38px;
+  background-color: #efefef;
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 50px;
+    margin-bottom: 40px;
+  }
+
+  &__sort {
+    display: flex;
+  }
+
+  &__btn {
+    width: 60px;
+    height: 60px;
+    background-color: var(--white);
+    border: 1px solid #e0e0e0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:first-of-type {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    &:last-of-type {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+    & svg {
+      fill: #c8c7cc;
+    }
+
+    &.active svg {
+      fill: var(--blue);
+    }
+  }
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 9px;
+  }
+
+  &__item {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    border: 1px solid transparent;
+    background-color: #8a2632;
+    position: relative;
+    cursor: pointer;
+
+    &:nth-of-type(1),
+    &:nth-of-type(14),
+    &:nth-of-type(30) {
+      background-color: #d5dbd7;
+    }
+
+    &:nth-of-type(9) {
+      background-color: #fdbb2d;
+    }
+
+    &:hover {
+      border: 1px solid #c8c7cc;
+
+      & .color__help {
+        display: block;
+      }
+    }
+
+    &.selected::before {
+      content: "";
+      display: block;
+      width: 12px;
+      height: 10px;
+
+      background-image: url(../img/icon-check.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+    }
+  }
+
+  &__help {
+    display: none;
+    width: max-content;
+    padding: 14px 30px;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+    font-size: 13px;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 6px);
+    z-index: 10;
+
+    &--blue {
+      display: block;
+      color: var(--blue);
+    }
+  }
+
+  &__show {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 36px;
+  }
+}
