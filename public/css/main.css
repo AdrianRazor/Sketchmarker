@@ -257,6 +257,10 @@ a {
   font-weight: 500;
 }
 
+.nav__link.active {
+  color: var(--blue);
+}
+
 .main {
   width: 100%;
 }
@@ -496,10 +500,20 @@ a {
   margin-bottom: 36px;
 }
 
-.study__filters {
+.study__sort {
   padding-bottom: 10px;
   margin-bottom: 20px;
   border-bottom: 1px solid var(--line);
+}
+
+.study__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -60px;
+}
+
+.sort {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -509,7 +523,7 @@ a {
   gap: 0 32px;
 }
 
-.study__filter {
+.sort__filter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -519,11 +533,11 @@ a {
   gap: 0 22px;
 }
 
-.study__name {
+.sort__name {
   opacity: 0.5;
 }
 
-.study__dropdown {
+.sort__dropdown {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -532,13 +546,6 @@ a {
   align-items: center;
   gap: 0 12px;
   cursor: pointer;
-}
-
-.study__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 -60px;
 }
 
 .lesson {
@@ -698,6 +705,92 @@ a {
 .subscribe__btn {
   width: 173px;
   font-size: 20px;
+}
+
+.catalog {
+  padding-top: 18px;
+  padding-bottom: 56px;
+}
+
+.catalog__crumbs {
+  margin-bottom: 20px;
+}
+
+.catalog__title {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.catalog__sort {
+  margin-bottom: 20px;
+}
+
+.catalog__wrapper {
+  margin: 0 -60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 44px;
+}
+
+.crumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0 16px;
+}
+
+.crumbs__item {
+  position: relative;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.crumbs__item:not(:first-of-type)::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 8px;
+  background-image: url(../img/icon-arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-55%);
+  -ms-transform: translateY(-55%);
+  transform: translateY(-55%);
+  left: -10px;
+  z-index: 10;
+}
+
+.pagination {
+  max-width: 570px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.pagination__page {
+  opacity: 0.2;
+}
+
+.pagination__link.active {
+  color: var(--blue);
+}
+
+.pagination__show {
+  cursor: pointer;
+  margin-left: auto;
 }
 
 .footer {

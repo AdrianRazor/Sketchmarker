@@ -1,0 +1,22 @@
+.sort {
+  display: flex;
+  align-items: center;
+  gap: 0 32px;
+
+  &__filter {
+    display: flex;
+    align-items: center;
+    gap: 0 22px;
+  }
+
+  &__name {
+    opacity: 0.5;
+  }
+
+  &__dropdown {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+    cursor: pointer;
+  }
+}

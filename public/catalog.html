@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Catalog</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="logo">
+          <img src="img/logo.svg" alt="Sketchmarker logo" />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="text nav__item">
+              <a href="#" class="nav__link">Продукция</a>
+            </li>
+            <li class="text nav__item">
+              <a href="catalog.html" class="nav__link active">Магазин</a>
+            </li>
+            <li class="text nav__item">
+              <a href="#" class="nav__link">Творческое сообщество</a>
+            </li>
+            <li class="text nav__item">
+              <a href="#" class="nav__link">Дилерам</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">
+              <svg class="icon" width="17" height="21">
+                <use xlink:href="img/sprite.svg#avatar"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              <svg class="icon" width="21" height="19">
+                <use xlink:href="img/sprite.svg#heart"></use>
+              </svg>
+              <div class="header__count">5</div>
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              <svg class="icon icon--blue" width="26" height="22">
+                <use xlink:href="img/sprite.svg#basket"></use>
+              </svg>
+              <div class="header__count header__count--blue">2</div>
+            </a>
+          </li>
+          <li class="header__item">
+            <svg class="icon" width="20" height="20">
+              <use xlink:href="img/sprite.svg#search"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="catalog">
+        <div class="container">
+          <ul class="crumbs catalog__crumbs">
+            <li class="crumbs__item">
+              <a href="#" class="crumbs__link">Home</a>
+            </li>
+            <li class="crumbs__item">
+              <a href="#" class="crumbs__link">Markers</a>
+            </li>
+            <li class="crumbs__item">
+              <a href="#" class="crumbs__link">Sketchmarker</a>
+            </li>
+          </ul>
+
+          <h1 class="title catalog__title">каталог</h1>
+
+          <div class="sort catalog__sort">
+            <div class="sort__filter">
+              <p class="text sort__name">Categories</p>
+              <p class="text sort__dropdown">
+                Step by step
+                <svg class="icon sort__icon" width="16" height="9">
+                  <use xlink:href="img/sprite.svg#arrowDown"></use>
+                </svg>
+              </p>
+            </div>
+            <div class="sort__filter">
+              <p class="text sort__name">Set</p>
+              <p class="text sort__dropdown">
+                36 set
+                <svg class="icon sort__icon" width="16" height="9">
+                  <use xlink:href="img/sprite.svg#arrowDown"></use>
+                </svg>
+              </p>
+            </div>
+          </div>
+
+          <div class="catalog__wrapper">
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-1.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      12 $
+                      <span class="text card__oldprice">95 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-2.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">SKETCHMARKER 48 MID COLOURS SET</p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      550 $
+                      <span class="text card__oldprice">575 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-3.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      8 $
+                      <span class="text card__oldprice">12 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-1.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">SKETCHMARKER</p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      3 $
+                      <span class="text card__oldprice">5 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-4.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      12 $
+                      <span class="text card__oldprice">95 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-3.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      8 $
+                      <span class="text card__oldprice">12 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-1.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">SKETCHMARKER</p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      3 $
+                      <span class="text card__oldprice">5 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-4.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      12 $
+                      <span class="text card__oldprice">95 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-1.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      12 $
+                      <span class="text card__oldprice">95 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-2.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">SKETCHMARKER 48 MID COLOURS SET</p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      550 $
+                      <span class="text card__oldprice">575 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-1.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      12 $
+                      <span class="text card__oldprice">95 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-2.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">SKETCHMARKER 48 MID COLOURS SET</p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      550 $
+                      <span class="text card__oldprice">575 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-3.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      8 $
+                      <span class="text card__oldprice">12 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-1.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">SKETCHMARKER</p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      3 $
+                      <span class="text card__oldprice">5 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-4.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      12 $
+                      <span class="text card__oldprice">95 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-3.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      8 $
+                      <span class="text card__oldprice">12 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-1.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">SKETCHMARKER</p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      3 $
+                      <span class="text card__oldprice">5 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-4.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      12 $
+                      <span class="text card__oldprice">95 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-1.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">
+                  SKETCHMARKER 6 MID COLOURS SET (6 markers in the box)
+                </p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      12 $
+                      <span class="text card__oldprice">95 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="img/card-2.jpg" alt="sketchmarker card" />
+              </div>
+              <div class="card__info">
+                <p class="card__name">SKETCHMARKER 48 MID COLOURS SET</p>
+                <div class="card__wrapper">
+                  <div class="card__prices">
+                    <p class="text card__price">
+                      550 $
+                      <span class="text card__oldprice">575 $</span>
+                    </p>
+                    <button class="card__favorites">
+                      <svg class="icon" width="30" height="28">
+                        <use xlink:href="img/sprite.svg#favorites"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="btn card__btn">В корзину</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <ul class="pagination">
+            <li class="text pagination__page">Страница:</li>
+            <li class="text pagination__number">
+              <a href="#" class="pagination__link active">1</a>
+            </li>
+            <li class="text pagination__number">
+              <a href="#" class="pagination__link">2</a>
+            </li>
+            <li class="text pagination__number">
+              <a href="#" class="pagination__link">3</a>
+            </li>
+            <li class="text pagination__number">
+              <a href="#" class="pagination__link">4</a>
+            </li>
+            <li class="text pagination__number">....</li>
+            <li class="text pagination__number">
+              <a href="#" class="pagination__link">19</a>
+            </li>
+            <li class="text pagination__show">Показать еще 9</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <div class="container subscribe__container">
+          <h2 class="title subscribe__title">Let's Keep In Touch</h2>
+          <p class="text subscribe__text">
+            Subscribe to receive special offers, giveaways, and exclusive deals.
+          </p>
+          <form class="subscribe__form" action="#" method="post">
+            <input
+              class="subscribe__input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="hello@gmail.com"
+            />
+            <button class="btn btn--h60 subscribe__btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="footer__list">
+            <li class="footer__name">ПРОДУКЦИЯ</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Презентации</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Отзывы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Документы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Блог</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__name">МАГАЗИН</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Каталог</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Акции</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Дисконтная система</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Контакты</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Продажа/Возврат</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Политика конфидицильности</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Условия использования</a>
+            </li>
+            <li class="footer__dropdown">
+              <div class="footer__flag">
+                <img src="img/flag-russia.svg" alt="flag" />
+              </div>
+              Россия
+              <svg class="icon footer__icon" width="9" height="5">
+                <use xlink:href="img/sprite.svg#arrowDown"></use>
+              </svg>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__name">ТВОРЧЕСКОЕ СООБЩЕСТВО</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Обучающие материалы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Работы дизайнеров</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Конкурсы</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__name">ДИЛЕРАМ</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Где купить</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Контакты</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Документы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Заказать онлайн</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__name">КАБИНЕТ</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Константин К.</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"
+                >Заказы <span class="footer__number">2</span></a
+              >
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"
+                >Избранное <span class="footer__number">5</span></a
+              >
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Уведомления</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Добавить работы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Корзина</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__addinfo">
+          <p class="footer__text">
+            © 2016 SKETCHMARKER Все права защищены
+            <a href="tel:+88001234567" class="footer__phone"
+              >Телефон: 8 800 123 45 67</a
+            >
+          </p>
+          <ul class="social">
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg class="icon social__icon" width="20" height="20">
+                  <use xlink:href="img/sprite.svg#facebookCircle"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg class="icon social__icon" width="20" height="20">
+                  <use xlink:href="img/sprite.svg#vkontakte"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg class="icon social__icon" width="18" height="19">
+                  <use xlink:href="img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="footer__box">
+            <a href="#" class="footer__policy">Условия использования</a>
+            <a href="#" class="footer__policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
