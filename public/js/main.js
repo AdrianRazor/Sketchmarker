@@ -36,6 +36,25 @@ document.addEventListener("DOMContentLoaded", function (event) {
         swiper: swiperBottom
       }
     });
+  } // Tabs
+
+
+  var tabHead = document.querySelectorAll(".tab__item");
+  var tabBody = document.querySelectorAll(".tab__body");
+
+  if (tabHead) {
+    tabHead.forEach(function (item, i) {
+      item.addEventListener("click", function () {
+        tabHead.forEach(function (el) {
+          return el.classList.remove("active");
+        });
+        tabBody.forEach(function (el) {
+          return el.classList.remove("active");
+        });
+        item.classList.add("active");
+        tabBody[i].classList.add("active");
+      });
+    });
   }
 
   console.log("DOM fully loaded and parsed");

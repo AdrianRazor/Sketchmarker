@@ -2,7 +2,7 @@
   padding-bottom: 50px;
 
   &__crumbs {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   &__wrapper {
@@ -91,26 +91,27 @@
 
   &__title {
     font-size: 36px;
-    line-height: 110%;
+    line-height: 100%;
     text-transform: uppercase;
-    margin-bottom: 22px;
+    margin-top: 5px;
+    margin-bottom: 20px;
   }
 
   &__rating {
     display: flex;
     align-items: center;
-    gap: 0 9px;
+    gap: 0 10px;
   }
 
   &__block {
     display: flex;
-    gap: 0 60px;
+    gap: 0 70px;
+    margin-bottom: 26px;
   }
 
   &__price {
     display: block;
     line-height: 100%;
-    margin-bottom: 30px;
   }
 
   &__oldprice {
@@ -123,7 +124,7 @@
   &__btn {
     font-size: 20px;
     width: 260px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
   }
 
   &__share {

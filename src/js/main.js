@@ -42,5 +42,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
 
+  // Tabs
+  const tabHead = document.querySelectorAll(".tab__item");
+  const tabBody = document.querySelectorAll(".tab__body");
+
+  if (tabHead) {
+    tabHead.forEach((item, i) => {
+      item.addEventListener("click", function () {
+        tabHead.forEach((el) => el.classList.remove("active"));
+        tabBody.forEach((el) => el.classList.remove("active"));
+
+        item.classList.add("active");
+        tabBody[i].classList.add("active");
+      });
+    });
+  }
+
   console.log("DOM fully loaded and parsed");
 });
