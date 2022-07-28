@@ -36,7 +36,7 @@
     }
 
     & svg {
-      fill: #c8c7cc;
+      fill: var(--gray);
     }
 
     &.active svg {
@@ -71,7 +71,7 @@
     }
 
     &:hover {
-      border: 1px solid #c8c7cc;
+      border: 1px solid var(--gray);
 
       & .color__help {
         display: block;

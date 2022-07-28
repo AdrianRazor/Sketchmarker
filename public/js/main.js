@@ -39,10 +39,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
   } // Tabs
 
 
-  var tabHead = document.querySelectorAll(".tab__item");
-  var tabBody = document.querySelectorAll(".tab__body");
+  var tabProductInfo = document.querySelector(".tab--info");
+  var tabProductReviews = document.querySelector(".tab--reviews");
+  tabProductInfo ? handleTab(tabProductInfo) : -1;
+  tabProductReviews ? handleTab(tabProductReviews) : -1;
 
-  if (tabHead) {
+  function handleTab(id) {
+    var tabHead = id.querySelectorAll(".tab__item");
+    var tabBody = id.querySelectorAll(".tab__body");
     tabHead.forEach(function (item, i) {
       item.addEventListener("click", function () {
         tabHead.forEach(function (el) {

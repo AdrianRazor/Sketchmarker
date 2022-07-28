@@ -6,7 +6,7 @@
 
   font-family: inherit;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 15px;
   line-height: 100%;
   color: var(--white);
@@ -16,7 +16,8 @@
   justify-content: center;
 
   &--outline {
-    color: var(--white);
+    background-color: transparent;
+    color: var(--black);
     border: 1px solid var(--black);
   }
 

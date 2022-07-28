@@ -43,10 +43,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
   }
 
   // Tabs
-  const tabHead = document.querySelectorAll(".tab__item");
-  const tabBody = document.querySelectorAll(".tab__body");
+  const tabProductInfo = document.querySelector(".tab--info");
+  const tabProductReviews = document.querySelector(".tab--reviews");
 
-  if (tabHead) {
+  tabProductInfo ? handleTab(tabProductInfo) : -1;
+  tabProductReviews ? handleTab(tabProductReviews) : -1;
+
+  function handleTab(id) {
+    let tabHead = id.querySelectorAll(".tab__item");
+    let tabBody = id.querySelectorAll(".tab__body");
+
     tabHead.forEach((item, i) => {
       item.addEventListener("click", function () {
         tabHead.forEach((el) => el.classList.remove("active"));
