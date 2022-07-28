@@ -2,81 +2,81 @@
   padding-top: 62px;
   padding-bottom: 64px;
   background-color: #f9f9f9;
-}
 
-.footer__wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 0 20px;
-  padding-right: 46px;
-  margin-bottom: 94px;
-}
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0 20px;
+    padding-right: 46px;
+    margin-bottom: 94px;
+  }
 
-.footer__list {
-  display: flex;
-  flex-direction: column;
-  gap: 13px 0;
-}
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+  }
 
-.footer__name {
-  font-weight: 600;
-  font-size: 12px;
-}
+  &__name {
+    font-weight: 600;
+    font-size: 12px;
+  }
 
-.footer__link {
-  color: var(--black);
-  font-size: 15px;
-}
+  &__link {
+    color: var(--black);
+    font-size: 15px;
+  }
 
-.footer__dropdown {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 0 10px;
-  cursor: pointer;
-}
+  &__dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    cursor: pointer;
+  }
 
-.footer__flag {
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-  border: 2px solid var(--white);
-  overflow: hidden;
+  &__flag {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid var(--white);
+    overflow: hidden;
 
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: -30px;
-}
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+  }
 
-.footer__number {
-  color: var(--blue);
-}
+  &__number {
+    color: var(--blue);
+  }
 
-.footer__addinfo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0 20px;
-}
+  &__addinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 20px;
+  }
 
-.footer__text {
-  font-size: 13px;
-  opacity: 0.5;
-}
+  &__text {
+    font-size: 13px;
+    opacity: 0.5;
+  }
 
-.footer__phone {
-  margin-left: 6px;
-}
+  &__phone {
+    margin-left: 6px;
+  }
 
-.footer__box {
-  display: flex;
-  align-items: center;
-  gap: 0 20px;
-}
+  &__box {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+  }
 
-.footer__policy {
-  font-size: 13px;
-  opacity: 0.5;
+  &__policy {
+    font-size: 13px;
+    opacity: 0.5;
+  }
 }

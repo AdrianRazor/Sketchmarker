@@ -1,0 +1,12 @@
+.stars {
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    fill: #d4d4d4;
+
+    &.filled {
+      fill: var(--yellow);
+    }
+  }
+}

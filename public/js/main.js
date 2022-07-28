@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
   var tabProductInfo = document.querySelector(".tab--info");
-  var tabProductReviews = document.querySelector(".tab--reviews");
+  var tabProductReviews = document.querySelector(".tab--review");
   tabProductInfo ? handleTab(tabProductInfo) : -1;
   tabProductReviews ? handleTab(tabProductReviews) : -1;
 
