@@ -1,0 +1,74 @@
+.train {
+  padding-bottom: 42px;
+
+  &__crumbs {
+    margin-bottom: 22px;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+  }
+
+  &__sort {
+    margin-bottom: 24px;
+  }
+
+  &__video {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid var(--line);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  &__overlay {
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    opacity: 0.3;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+  }
+
+  &__play {
+    fill: var(--white);
+  }
+
+  &__name {
+    max-width: 770px;
+    width: 100%;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: var(--white);
+
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    z-index: 20;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 15px;
+  }
+
+  &__pagination {
+    margin-top: 60px;
+  }
+}

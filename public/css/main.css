@@ -582,9 +582,18 @@ a {
   height: 450px;
 }
 
+.lesson--height .lesson__img {
+  min-height: 240px;
+}
+
+.lesson--height .lesson__wrapper {
+  padding: 30px 20px 24px;
+}
+
 .lesson__img {
   position: relative;
-  min-height: 240px;
+  min-height: 300px;
+  cursor: pointer;
 }
 
 .lesson__btn {
@@ -613,7 +622,7 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
   gap: 15px 0;
-  padding: 30px 20px 24px;
+  padding: 20px 20px 24px;
   height: 100%;
 }
 
@@ -1746,6 +1755,80 @@ a {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+.train {
+  padding-bottom: 42px;
+}
+
+.train__crumbs {
+  margin-bottom: 22px;
+}
+
+.train__title {
+  margin-bottom: 12px;
+}
+
+.train__sort {
+  margin-bottom: 24px;
+}
+
+.train__video {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.train__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: var(--black);
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.train__btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+.train__play {
+  fill: var(--white);
+}
+
+.train__name {
+  max-width: 770px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+  color: var(--white);
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  z-index: 20;
+}
+
+.train__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 15px;
+}
+
+.train__pagination {
+  margin-top: 60px;
 }
 
 .footer {

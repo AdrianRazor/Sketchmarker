@@ -8,11 +8,20 @@
 
   &--height {
     height: 450px;
+
+    & .lesson__img {
+      min-height: 240px;
+    }
+
+    & .lesson__wrapper {
+      padding: 30px 20px 24px;
+    }
   }
 
   &__img {
     position: relative;
-    min-height: 240px;
+    min-height: 300px;
+    cursor: pointer;
   }
 
   &__btn {
@@ -32,7 +41,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 15px 0;
-    padding: 30px 20px 24px;
+    padding: 20px 20px 24px;
     height: 100%;
   }
 
