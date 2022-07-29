@@ -1,0 +1,85 @@
+.tutorial {
+  padding-bottom: 100px;
+
+  &__crumbs {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__author {
+    padding: 50px 60px;
+    margin: 0 -60px;
+    background-color: #f1f1f1;
+
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+  }
+
+  &__photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 220px;
+    border: 3px solid var(--white);
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  &__name {
+    font-size: 24px;
+    line-height: 130%;
+
+    &--link {
+      display: block;
+      margin-top: 10px;
+    }
+
+    & a {
+      color: var(--blue);
+    }
+  }
+
+  &__wrapper {
+    padding: 20px 120px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
+  }
+
+  &__img {
+    height: 550px;
+    margin-bottom: 30px;
+
+    & img {
+      object-fit: contain;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 130%;
+
+    & a {
+      font-weight: 700;
+      color: var(--blue);
+    }
+  }
+
+  &__headline {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

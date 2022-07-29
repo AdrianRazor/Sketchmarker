@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Lesson</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="index.html" class="logo">
+          <img src="img/logo.svg" alt="Sketchmarker logo" />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="text nav__item">
+              <a href="product.html" class="nav__link">Продукция</a>
+            </li>
+            <li class="text nav__item">
+              <a href="catalog.html" class="nav__link">Магазин</a>
+            </li>
+            <li class="text nav__item">
+              <a href="#" class="nav__link">Творческое сообщество</a>
+            </li>
+            <li class="text nav__item">
+              <a href="#" class="nav__link">Дилерам</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">
+              <svg class="icon" width="17" height="21">
+                <use xlink:href="img/sprite.svg#avatar"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              <svg class="icon" width="21" height="19">
+                <use xlink:href="img/sprite.svg#heart"></use>
+              </svg>
+              <div class="header__count">5</div>
+            </a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">
+              <svg class="icon icon--blue" width="26" height="22">
+                <use xlink:href="img/sprite.svg#basket"></use>
+              </svg>
+              <div class="header__count header__count--blue">2</div>
+            </a>
+          </li>
+          <li class="header__item">
+            <svg class="icon" width="20" height="20">
+              <use xlink:href="img/sprite.svg#search"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="tutorial">
+        <div class="container">
+          <ul class="crumbs tutorial__crumbs">
+            <li class="crumbs__item">
+              <a href="#" class="crumbs__link">Home</a>
+            </li>
+            <li class="crumbs__item">
+              <a href="#" class="crumbs__link">Lesson</a>
+            </li>
+          </ul>
+
+          <h1 class="title title--page tutorial__title">
+            HOW TO DRAW LEMONADE
+          </h1>
+
+          <div class="tutorial__author">
+            <div class="tutorial__photo">
+              <img src="img/artist.jpg" alt="artist" />
+            </div>
+            <p class="tutorial__name">
+              Julian Polyakov - artist, sketcher
+              <span class="tutorial__name--link">
+                Instagram -
+                <a href="https://www.instagram.com/luckyjulyy_art/"
+                  >https://www.instagram.com/luckyjulyy_art/</a
+                >
+              </span>
+            </p>
+          </div>
+
+          <ul class="tutorial__wrapper">
+            <li class="tutorial__step">
+              <div class="tutorial__img">
+                <img src="img/lesson-5.jpg" alt="tutorial" />
+              </div>
+              <h3 class="tutorial__subtitle">
+                The work was created with materials:
+              </h3>
+              <p class="tutorial__text">
+                Alcohol-based markers SKETCHMARKER BRUSH PRO
+                <br />
+                Alcohol-based markers SKETCHMARKER
+                <br />
+                <br />
+                <a href="https://www.amazon.com/">Buy on AMAZON</a>
+                <br />
+                <br />
+                Colors used: B94 Haze Blue, V14 Sea Lavender, Y54 Lemon Chiffon,
+                B53 Stonewash, Y13 Cheese, O72 Clay Brown, B51 Blue Fjord, O43
+                Honey, V53 Lavender, BR20 Chocolate, BR50 Dark Brown
+              </p>
+            </li>
+            <li class="tutorial__step">
+              <div class="tutorial__img">
+                <img src="img/lesson-6.jpg" alt="tutorial" />
+              </div>
+              <h3 class="tutorial__headline">Step 1</h3>
+              <p class="tutorial__text">
+                Make a pencil sketch. Draw purple-blue areas with B94 and V14,
+                add Y54 to show the glowing areas of the inner part.
+              </p>
+            </li>
+            <li class="tutorial__step">
+              <div class="tutorial__img">
+                <img src="img/lesson-5.jpg" alt="tutorial" />
+              </div>
+              <h3 class="tutorial__headline">Step 2</h3>
+              <p class="tutorial__text">
+                Highlight the pattern on the bottom part of the seashell with
+                BR20 и BR50, add some spots of the same colors to the body part
+                of the shell.
+              </p>
+            </li>
+            <li class="tutorial__step">
+              <div class="tutorial__img">
+                <img src="img/lesson-5.jpg" alt="tutorial" />
+              </div>
+              <h3 class="tutorial__headline">Step 3</h3>
+              <p class="tutorial__text">
+                With white gel pen draw details and highlights. Our glowing
+                seashell is finished!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="message">
+        <div class="container">
+          <h2 class="title title--page message__title">comments</h2>
+          <textarea
+            class="message__area"
+            name="comment"
+            placeholder="Your comments..."
+          ></textarea>
+          <div class="message__wrapper">
+            <button class="btn btn--h60 message__btn">Submit</button>
+            <label class="message__upload" for="add-photo">
+              + Add Photo
+              <input type="file" name="add-photo" id="add-photo" />
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="study">
+        <div class="container">
+          <h2 class="title study__title">обучающие материалы</h2>
+          <div class="sort study__sort">
+            <div class="sort__filter">
+              <p class="text sort__name">Categories</p>
+              <p class="text sort__dropdown">
+                Step by step
+                <svg class="icon sort__icon" width="16" height="9">
+                  <use xlink:href="img/sprite.svg#arrowDown"></use>
+                </svg>
+              </p>
+            </div>
+            <div class="sort__filter">
+              <p class="text sort__name">Materials</p>
+              <p class="text sort__dropdown">
+                Watercolor markers
+                <svg class="icon sort__icon" width="16" height="9">
+                  <use xlink:href="img/sprite.svg#arrowDown"></use>
+                </svg>
+              </p>
+            </div>
+          </div>
+          <div class="study__wrapper">
+            <div class="lesson lesson--height">
+              <div class="lesson__img">
+                <img src="img/lesson-1.jpg" alt="drawing" />
+                <button class="lesson__btn">
+                  <svg class="lesson__play" width="26" height="30">
+                    <use xlink:href="img/sprite.svg#play"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="lesson__wrapper">
+                <p class="lesson__name">Рисуем гекконов маркерами</p>
+                <div class="lesson__block">
+                  <p class="lesson__date">27.07.2018</p>
+                  <div class="views">
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="24" height="18">
+                        <use xlink:href="img/sprite.svg#views"></use>
+                      </svg>
+                      <p class="views__count">32</p>
+                    </a>
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="21" height="21">
+                        <use xlink:href="img/sprite.svg#comments"></use>
+                      </svg>
+                      <p class="views__count">4</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lesson lesson--height">
+              <div class="lesson__img">
+                <img src="img/lesson-2.jpg" alt="drawing" />
+                <button class="lesson__btn">
+                  <svg class="lesson__play" width="26" height="30">
+                    <use xlink:href="img/sprite.svg#play"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="lesson__wrapper">
+                <p class="lesson__name">
+                  Рисуем ракушку маркерами Sketchmarker
+                </p>
+                <div class="lesson__block">
+                  <p class="lesson__date">12.05.2019</p>
+                  <div class="views">
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="24" height="18">
+                        <use xlink:href="img/sprite.svg#views"></use>
+                      </svg>
+                      <p class="views__count">32</p>
+                    </a>
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="21" height="21">
+                        <use xlink:href="img/sprite.svg#comments"></use>
+                      </svg>
+                      <p class="views__count">4</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lesson lesson--height">
+              <div class="lesson__img">
+                <img src="img/lesson-3.jpg" alt="drawing" />
+                <button class="lesson__btn">
+                  <svg class="lesson__play" width="26" height="30">
+                    <use xlink:href="img/sprite.svg#play"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="lesson__wrapper">
+                <p class="lesson__name">
+                  Рисуем абстрактный дом маркерами Sketchmarker
+                </p>
+                <div class="lesson__block">
+                  <p class="lesson__date">02.11.2021</p>
+                  <div class="views">
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="24" height="18">
+                        <use xlink:href="img/sprite.svg#views"></use>
+                      </svg>
+                      <p class="views__count">32</p>
+                    </a>
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="21" height="21">
+                        <use xlink:href="img/sprite.svg#comments"></use>
+                      </svg>
+                      <p class="views__count">4</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lesson lesson--height">
+              <div class="lesson__img">
+                <img src="img/lesson-1.jpg" alt="drawing" />
+                <button class="lesson__btn">
+                  <svg class="lesson__play" width="26" height="30">
+                    <use xlink:href="img/sprite.svg#play"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="lesson__wrapper">
+                <p class="lesson__name">Рисуем гекконов маркерами</p>
+                <div class="lesson__block">
+                  <p class="lesson__date">27.07.2018</p>
+                  <div class="views">
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="24" height="18">
+                        <use xlink:href="img/sprite.svg#views"></use>
+                      </svg>
+                      <p class="views__count">32</p>
+                    </a>
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="21" height="21">
+                        <use xlink:href="img/sprite.svg#comments"></use>
+                      </svg>
+                      <p class="views__count">4</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lesson lesson--height">
+              <div class="lesson__img">
+                <img src="img/lesson-2.jpg" alt="drawing" />
+                <button class="lesson__btn">
+                  <svg class="lesson__play" width="26" height="30">
+                    <use xlink:href="img/sprite.svg#play"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="lesson__wrapper">
+                <p class="lesson__name">
+                  Рисуем ракушку маркерами Sketchmarker
+                </p>
+                <div class="lesson__block">
+                  <p class="lesson__date">27.07.2018</p>
+                  <div class="views">
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="24" height="18">
+                        <use xlink:href="img/sprite.svg#views"></use>
+                      </svg>
+                      <p class="views__count">32</p>
+                    </a>
+                    <a href="#" class="views__box">
+                      <svg class="icon" width="21" height="21">
+                        <use xlink:href="img/sprite.svg#comments"></use>
+                      </svg>
+                      <p class="views__count">4</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="footer__list">
+            <li class="footer__name">ПРОДУКЦИЯ</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Презентации</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Отзывы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Документы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Блог</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__name">МАГАЗИН</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Каталог</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Акции</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Дисконтная система</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Контакты</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Продажа/Возврат</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Политика конфидицильности</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Условия использования</a>
+            </li>
+            <li class="footer__dropdown">
+              <div class="footer__flag">
+                <img src="img/flag-russia.svg" alt="flag" />
+              </div>
+              Россия
+              <svg class="icon footer__icon" width="9" height="5">
+                <use xlink:href="img/sprite.svg#arrowDown"></use>
+              </svg>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__name">ТВОРЧЕСКОЕ СООБЩЕСТВО</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Обучающие материалы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Работы дизайнеров</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Конкурсы</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__name">ДИЛЕРАМ</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Где купить</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Контакты</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Документы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Заказать онлайн</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__name">КАБИНЕТ</li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Константин К.</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"
+                >Заказы <span class="footer__number">2</span></a
+              >
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link"
+                >Избранное <span class="footer__number">5</span></a
+              >
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Уведомления</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Добавить работы</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Корзина</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__addinfo">
+          <p class="footer__text">
+            © 2016 SKETCHMARKER Все права защищены
+            <a href="tel:+88001234567" class="footer__phone"
+              >Телефон: 8 800 123 45 67</a
+            >
+          </p>
+          <ul class="social">
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg class="icon social__icon" width="20" height="20">
+                  <use xlink:href="img/sprite.svg#facebookCircle"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg class="icon social__icon" width="20" height="20">
+                  <use xlink:href="img/sprite.svg#vkontakte"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg class="icon social__icon" width="18" height="19">
+                  <use xlink:href="img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="footer__box">
+            <a href="#" class="footer__policy">Условия использования</a>
+            <a href="#" class="footer__policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
