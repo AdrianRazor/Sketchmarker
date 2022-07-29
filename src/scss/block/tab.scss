@@ -108,4 +108,16 @@
       padding-right: 3px;
     }
   }
+
+  &--blog {
+    & .tab__head {
+      justify-content: center;
+      gap: 0 5px;
+    }
+
+    & .tab__item {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
 }

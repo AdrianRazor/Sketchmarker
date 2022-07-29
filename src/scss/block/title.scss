@@ -6,6 +6,11 @@
   line-height: 130%;
   color: var(--black);
   text-transform: uppercase;
+
+  &--page {
+    font-size: 70px;
+    text-align: center;
+  }
 }
 
 // @media (max-width: 767px) {

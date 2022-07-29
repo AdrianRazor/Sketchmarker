@@ -45,9 +45,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // Tabs
   const tabProductInfo = document.querySelector(".tab--info");
   const tabProductReviews = document.querySelector(".tab--review");
+  const tabProductBlog = document.querySelector(".tab--blog");
 
   tabProductInfo ? handleTab(tabProductInfo) : -1;
   tabProductReviews ? handleTab(tabProductReviews) : -1;
+  tabProductBlog ? handleTab(tabProductBlog) : -1;
 
   function handleTab(id) {
     let tabHead = id.querySelectorAll(".tab__item");
