@@ -502,8 +502,58 @@ a {
   margin-left: 12px;
 }
 
+.card__favorites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .card__btn {
   margin: 0 auto;
+}
+
+.card--horizontal {
+  max-width: 100%;
+  height: 250px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.card--horizontal .card__img {
+  width: 250px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.card--horizontal .card__info {
+  width: 100%;
+  padding: 20px 28px 18px 20px;
+}
+
+.card--horizontal .card__name {
+  font-size: 18px;
+}
+
+.card--horizontal .card__prices {
+  margin-bottom: 20px;
+}
+
+.card--horizontal .card__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.card--horizontal .card__btn {
+  margin: 0;
 }
 
 .study {
@@ -1840,7 +1890,7 @@ a {
 }
 
 .tutorial__title {
-  margin-bottom: 60px;
+  margin-bottom: 47px;
 }
 
 .tutorial__author {
@@ -1881,7 +1931,7 @@ a {
 }
 
 .tutorial__wrapper {
-  padding: 20px 120px 0;
+  padding: 20px 140px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1889,7 +1939,7 @@ a {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 50px 0;
+  gap: 60px 0;
 }
 
 .tutorial__img {
@@ -1906,7 +1956,7 @@ a {
   font-weight: 700;
   font-size: 32px;
   line-height: 130%;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .tutorial__text {
@@ -1927,20 +1977,30 @@ a {
   margin-bottom: 20px;
 }
 
+.materials__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.materials__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .message {
   padding-top: 60px;
   padding-bottom: 100px;
 }
 
 .message__title {
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 
 .message__area {
   width: 100%;
   height: 234px;
   padding: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
   background-color: #f1f1f1;
   border-radius: 5px;
   font-size: 18px;
