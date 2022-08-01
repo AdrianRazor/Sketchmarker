@@ -9,6 +9,7 @@
     position: relative;
     padding: 28px 20px 22px;
     font-size: 15px;
+    white-space: nowrap;
     cursor: pointer;
     transition: 0.5s cubic-bezier(0.6, 0.4, 0, 0.9);
 
@@ -69,6 +70,39 @@
     color: #a8a8a8;
   }
 
+  &__note {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--blue);
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 11px;
+    color: var(--white);
+
+    position: absolute;
+    top: 16px;
+    right: 0;
+    z-index: 10;
+
+    &--empty {
+      width: 8px;
+      height: 8px;
+      background-color: var(--red);
+
+      top: 25px;
+      right: 16px;
+    }
+
+    &.active {
+      display: flex;
+    }
+  }
+
   &__buttons {
     display: flex;
     align-items: center;
@@ -118,6 +152,18 @@
     & .tab__item {
       padding-left: 25px;
       padding-right: 25px;
+    }
+  }
+
+  &--account {
+    & .tab__head {
+      justify-content: center;
+      gap: 0 6px;
+    }
+
+    & .tab__item {
+      padding-left: 24px;
+      padding-right: 24px;
     }
   }
 }

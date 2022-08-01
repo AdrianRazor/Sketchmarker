@@ -69,9 +69,9 @@
     <main class="main">
       <section class="user">
         <div class="container">
-          <h1 class="title user__title">личный кабинет</h1>
+          <h1 class="title title--page user__title">личный кабинет</h1>
           <div class="user__body">
-            <div class="user__block">
+            <div class="user__info">
               <div class="user__about">
                 <p class="user__text user__text--color">
                   Ваше имя:
@@ -123,6 +123,507 @@
             </div>
             <div class="avatar avatar--user">
               <img src="img/artist.jpg" alt="artist" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab tab--account">
+        <ul class="tab__head container">
+          <li class="tab__item">
+            Текущие заказы
+            <span class="tab__note active">2</span>
+          </li>
+          <li class="tab__item">
+            Архивные заказы
+            <span class="tab__note tab__note--empty"></span>
+          </li>
+          <li class="tab__item">
+            Загруженные работы
+            <span class="tab__note tab__note--empty"></span>
+          </li>
+          <li class="tab__item">
+            Избранное
+            <span class="tab__note tab__note--empty"></span>
+          </li>
+          <li class="tab__item">
+            Слежу
+            <span class="tab__note tab__note--empty"></span>
+          </li>
+          <li class="tab__item active">
+            Бонусная программа
+            <span class="tab__note tab__note--empty active"></span>
+          </li>
+        </ul>
+
+        <div class="tab__body container">
+          <h2 class="title" style="margin: 70px 100px 400px">Текущие заказы</h2>
+        </div>
+        <div class="tab__body container">
+          <h2 class="title" style="margin: 70px 100px 400px">
+            Архивные заказы
+          </h2>
+        </div>
+        <div class="tab__body works">
+          <div class="container">
+            <ul class="works__list">
+              <li class="works__add">
+                <button class="btn works__btn">добавить работу</button>
+                <p class="works__text">
+                  Форматы файла: jpg, jpeg, gif, png.
+                  <br />
+                  Объем не более 10 MБ
+                </p>
+              </li>
+              <li class="works__item">
+                <div class="works__picture">
+                  <img src="img/blog-1.jpg" alt="drawing work" />
+                </div>
+                <div class="works__info">
+                  <div class="works__buttons">
+                    <button class="btn btn--icon">
+                      <svg width="12" height="12">
+                        <use xlink:href="img/sprite.svg#edit"></use>
+                      </svg>
+                    </button>
+                    <button class="btn btn--icon">
+                      <svg width="12" height="14">
+                        <use xlink:href="img/sprite.svg#delete"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="works__about">
+                    <ul class="works__materials">
+                      <li class="works__img">
+                        <img src="img/works-1.jpg" alt="material" />
+                      </li>
+                      <li class="works__img">
+                        <img src="img/works-2.jpg" alt="material" />
+                      </li>
+                      <li class="works__img">
+                        <img src="img/works-3.jpg" alt="material" />
+                      </li>
+                    </ul>
+                    <p class="works__name">Компания друзей на отдыхе</p>
+                    <p class="works__date">Дата загрузки: 17.05.2016</p>
+                    <div class="views">
+                      <a href="#" class="views__box">
+                        <svg class="icon" width="24" height="18">
+                          <use xlink:href="img/sprite.svg#views"></use>
+                        </svg>
+                        <p class="views__count">44</p>
+                      </a>
+                      <a href="#" class="views__box">
+                        <svg class="icon" width="21" height="21">
+                          <use xlink:href="img/sprite.svg#comments"></use>
+                        </svg>
+                        <p class="views__count">456</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="works__item">
+                <div class="works__picture">
+                  <img src="img/blog-2.jpg" alt="drawing work" />
+                </div>
+                <div class="works__info">
+                  <div class="works__buttons">
+                    <button class="btn btn--icon">
+                      <svg width="12" height="12">
+                        <use xlink:href="img/sprite.svg#edit"></use>
+                      </svg>
+                    </button>
+                    <button class="btn btn--icon">
+                      <svg width="12" height="14">
+                        <use xlink:href="img/sprite.svg#delete"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="works__about">
+                    <ul class="works__materials">
+                      <li class="works__img">
+                        <img src="img/works-1.jpg" alt="material" />
+                      </li>
+                      <li class="works__img">
+                        <img src="img/works-2.jpg" alt="material" />
+                      </li>
+                      <li class="works__img">
+                        <img src="img/works-3.jpg" alt="material" />
+                      </li>
+                    </ul>
+                    <p class="works__name">Открытка с дачными цветами</p>
+                    <p class="works__date">Дата загрузки: 17.05.2016</p>
+                    <div class="views">
+                      <a href="#" class="views__box">
+                        <svg class="icon" width="24" height="18">
+                          <use xlink:href="img/sprite.svg#views"></use>
+                        </svg>
+                        <p class="views__count">567</p>
+                      </a>
+                      <a href="#" class="views__box">
+                        <svg class="icon" width="21" height="21">
+                          <use xlink:href="img/sprite.svg#comments"></use>
+                        </svg>
+                        <p class="views__count">98</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="works__item">
+                <div class="works__picture">
+                  <img src="img/lesson-7.jpg" alt="drawing work" />
+                </div>
+                <div class="works__info">
+                  <div class="works__buttons">
+                    <button class="btn btn--icon">
+                      <svg width="12" height="12">
+                        <use xlink:href="img/sprite.svg#edit"></use>
+                      </svg>
+                    </button>
+                    <button class="btn btn--icon">
+                      <svg width="12" height="14">
+                        <use xlink:href="img/sprite.svg#delete"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="works__about">
+                    <ul class="works__materials">
+                      <li class="works__img">
+                        <img src="img/works-1.jpg" alt="material" />
+                      </li>
+                      <li class="works__img">
+                        <img src="img/works-2.jpg" alt="material" />
+                      </li>
+                      <li class="works__img">
+                        <img src="img/works-3.jpg" alt="material" />
+                      </li>
+                    </ul>
+                    <p class="works__name">Дачная клубника</p>
+                    <p class="works__date">Дата загрузки: 17.05.2016</p>
+                    <div class="views">
+                      <a href="#" class="views__box">
+                        <svg class="icon" width="24" height="18">
+                          <use xlink:href="img/sprite.svg#views"></use>
+                        </svg>
+                        <p class="views__count">36</p>
+                      </a>
+                      <a href="#" class="views__box">
+                        <svg class="icon" width="21" height="21">
+                          <use xlink:href="img/sprite.svg#comments"></use>
+                        </svg>
+                        <p class="views__count">4</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="works__item">
+                <div class="works__picture">
+                  <img src="img/lesson-8.jpg" alt="drawing work" />
+                </div>
+                <div class="works__info">
+                  <div class="works__buttons">
+                    <button class="btn btn--icon">
+                      <svg width="12" height="12">
+                        <use xlink:href="img/sprite.svg#edit"></use>
+                      </svg>
+                    </button>
+                    <button class="btn btn--icon">
+                      <svg width="12" height="14">
+                        <use xlink:href="img/sprite.svg#delete"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="works__about">
+                    <ul class="works__materials">
+                      <li class="works__img">
+                        <img src="img/works-1.jpg" alt="material" />
+                      </li>
+                      <li class="works__img">
+                        <img src="img/works-2.jpg" alt="material" />
+                      </li>
+                      <li class="works__img">
+                        <img src="img/works-3.jpg" alt="material" />
+                      </li>
+                    </ul>
+                    <p class="works__name">Вечер у летнего домика</p>
+                    <p class="works__date">Дата загрузки: 17.05.2016</p>
+                    <div class="views">
+                      <a href="#" class="views__box">
+                        <svg class="icon" width="24" height="18">
+                          <use xlink:href="img/sprite.svg#views"></use>
+                        </svg>
+                        <p class="views__count">44</p>
+                      </a>
+                      <a href="#" class="views__box">
+                        <svg class="icon" width="21" height="21">
+                          <use xlink:href="img/sprite.svg#comments"></use>
+                        </svg>
+                        <p class="views__count">456</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab__body container">
+          <h2 class="title" style="margin: 70px 100px 400px">Избранное</h2>
+        </div>
+        <div class="tab__body container">
+          <h2 class="title" style="margin: 70px 100px 400px">Слежу</h2>
+        </div>
+        <div class="tab__body bonus-program active">
+          <div class="bonus">
+            <div class="container">
+              <h2 class="title bonus__title">Получить бесплатные балы</h2>
+              <p class="bonus__subtitle">
+                Выполняйте задания и оплачивайте покупки балами 1 бал = 1 рубль
+              </p>
+              <ul class="bonus__list">
+                <li class="bonus__item">
+                  <div class="bonus__left">
+                    <div class="bonus__circle"></div>
+                    <p class="bonus__text">
+                      Публикация работы (скетч или видео) на сайте
+                      <span class="bonus__subtext">
+                        За выплнения этого задания вы получете 20 бонусных балов
+                      </span>
+                    </p>
+                  </div>
+                  <div class="bonus__right">
+                    <p class="bonus__amount">
+                      Количество бонусных баллов:
+                      <span class="bonus__score">20</span>
+                    </p>
+                    <button class="btn btn--h60 bonus__btn">Начать</button>
+                  </div>
+                </li>
+                <li class="bonus__item">
+                  <div class="bonus__left">
+                    <div class="bonus__circle"></div>
+                    <p class="bonus__text">
+                      Публикация отзыва, мнения на сайте или
+                      <span class="bonus__subtext">
+                        За выплнения этого задания вы получете 20 бонусных балов
+                      </span>
+                    </p>
+                  </div>
+                  <div class="bonus__right">
+                    <p class="bonus__amount">
+                      Количество бонусных баллов:
+                      <span class="bonus__score">50</span>
+                    </p>
+                    <button class="btn btn--h60 bonus__btn">Начать</button>
+                  </div>
+                </li>
+                <li class="bonus__item">
+                  <div class="bonus__left">
+                    <div class="bonus__circle"></div>
+                    <p class="bonus__text">
+                      Комментарии к работам других участников на сайте
+                      <span class="bonus__subtext">
+                        За выплнения этого задания вы получете 20 бонусных балов
+                      </span>
+                    </p>
+                  </div>
+                  <div class="bonus__right">
+                    <p class="bonus__amount">
+                      Количество бонусных баллов:
+                      <span class="bonus__score">20</span>
+                    </p>
+                    <button class="btn btn--h60 bonus__btn">Начать</button>
+                  </div>
+                </li>
+                <li class="bonus__item">
+                  <div class="bonus__left">
+                    <div class="bonus__circle"></div>
+                    <p class="bonus__text">
+                      Покупки
+                      <span class="bonus__subtext">
+                        С каждой покупки вы получаете 3% бонусных балов
+                      </span>
+                    </p>
+                  </div>
+                  <div class="bonus__right">
+                    <p class="bonus__amount">
+                      Количество бонусных баллов:
+                      <span class="bonus__score bonus__score--text"
+                        >3% от каждой покупки</span
+                      >
+                    </p>
+                    <button class="btn btn--h60 bonus__btn">Начать</button>
+                  </div>
+                </li>
+                <li class="bonus__item">
+                  <div class="bonus__left">
+                    <div class="bonus__circle"></div>
+                    <p class="bonus__text">
+                      Работы, выполненные по урокам
+                      <span class="bonus__subtext">
+                        За выплнения этого задания вы получете 20 бонусных балов
+                      </span>
+                    </p>
+                  </div>
+                  <div class="bonus__right">
+                    <p class="bonus__amount">
+                      Количество бонусных баллов:
+                      <span class="bonus__score">50</span>
+                    </p>
+                    <button class="btn btn--h60 bonus__btn">Начать</button>
+                  </div>
+                </li>
+                <li class="bonus__item">
+                  <div class="bonus__left">
+                    <div class="bonus__circle"></div>
+                    <p class="bonus__text">
+                      Комментарии к урокам
+                      <span class="bonus__subtext">
+                        За выплнения этого задания вы получете 20 бонусных балов
+                      </span>
+                    </p>
+                  </div>
+                  <div class="bonus__right">
+                    <p class="bonus__amount">
+                      Количество бонусных баллов:
+                      <span class="bonus__score">20</span>
+                    </p>
+                    <button class="btn btn--h60 bonus__btn">Начать</button>
+                  </div>
+                </li>
+                <li class="bonus__item">
+                  <div class="bonus__left">
+                    <div class="bonus__circle"></div>
+                    <p class="bonus__text">
+                      Видео на ютьюб
+                      <span class="bonus__subtext">
+                        За выплнения этого задания вы получете 20 бонусных балов
+                      </span>
+                    </p>
+                  </div>
+                  <div class="bonus__right">
+                    <p class="bonus__amount">
+                      Количество бонусных баллов:
+                      <span class="bonus__score">20</span>
+                    </p>
+                    <button class="btn btn--h60 bonus__btn">Начать</button>
+                  </div>
+                </li>
+              </ul>
+              <ul class="pagination bonus__pagination">
+                <li class="text pagination__page">Страница:</li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link active">1</a>
+                </li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link">2</a>
+                </li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link">3</a>
+                </li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link">4</a>
+                </li>
+                <li class="text pagination__number">....</li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link">19</a>
+                </li>
+                <li class="text pagination__show">Показать еще 9</li>
+              </ul>
+            </div>
+          </div>
+          <div class="achieve">
+            <div class="container">
+              <h2 class="title achieve__title">мои достижения</h2>
+              <ul class="achieve__body">
+                <li class="achieve__item">
+                  <p class="achieve__number">36</p>
+                  <p class="achieve__text">Выполненых заданий</p>
+                </li>
+                <li class="achieve__item">
+                  <p class="achieve__number">1 567</p>
+                  <p class="achieve__text">Бонусных балов НА СЧЕТУ</p>
+                </li>
+                <li class="achieve__item">
+                  <p class="achieve__number">2 126</p>
+                  <p class="achieve__text">Использованых бонусных балов</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="history">
+            <div class="container">
+              <h2 class="title history__title">История бонусного счёта</h2>
+              <ul class="history__list">
+                <li class="history__header">
+                  <p class="history__name">Бонусы</p>
+                  <p class="history__name">Дата</p>
+                  <p class="history__name">События</p>
+                </li>
+                <li class="history__item">
+                  <p class="history__bonus">
+                    +500
+                    <span class="history__bonus--text">Бонусных Бала</span>
+                  </p>
+                  <p class="history__date">12/25/2019</p>
+                  <p class="history__event">Выполнения задания</p>
+                </li>
+                <li class="history__item">
+                  <p class="history__bonus">
+                    -45
+                    <span class="history__bonus--text">Бонусных Бала</span>
+                  </p>
+                  <p class="history__date">12/25/2019</p>
+                  <p class="history__event">Покупка с бонусного счёта</p>
+                </li>
+                <li class="history__item">
+                  <p class="history__bonus">
+                    +20
+                    <span class="history__bonus--text">Бонусных Бала</span>
+                  </p>
+                  <p class="history__date">12/25/2019</p>
+                  <p class="history__event">Выполнения задания</p>
+                </li>
+                <li class="history__item">
+                  <p class="history__bonus">
+                    +50
+                    <span class="history__bonus--text">Бонусных Бала</span>
+                  </p>
+                  <p class="history__date">12/25/2019</p>
+                  <p class="history__event">Выполнения задания</p>
+                </li>
+                <li class="history__item">
+                  <p class="history__bonus">
+                    +70
+                    <span class="history__bonus--text">Бонусных Бала</span>
+                  </p>
+                  <p class="history__date">12/25/2019</p>
+                  <p class="history__event">Выполнения задания</p>
+                </li>
+              </ul>
+              <ul class="pagination history__pagination">
+                <li class="text pagination__page">Страница:</li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link active">1</a>
+                </li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link">2</a>
+                </li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link">3</a>
+                </li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link">4</a>
+                </li>
+                <li class="text pagination__number">....</li>
+                <li class="text pagination__number">
+                  <a href="#" class="pagination__link">19</a>
+                </li>
+                <li class="text pagination__show">Показать еще 9</li>
+              </ul>
             </div>
           </div>
         </div>

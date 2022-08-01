@@ -1,6 +1,6 @@
 .user {
-  padding-top: 40px;
-  padding-bottom: 53px;
+  padding-top: 26px;
+  padding-bottom: 38px;
 
   &__title {
     margin-bottom: 56px;
@@ -8,13 +8,14 @@
 
   &__body {
     display: flex;
-    gap: 0 50px;
+    justify-content: space-between;
+    gap: 0 25px;
   }
 
   &__about {
     display: flex;
-    gap: 0 25px;
-    margin-bottom: 25px;
+    gap: 0 35px;
+    margin-bottom: 28px;
   }
 
   &__text {
@@ -22,6 +23,7 @@
     font-size: 15px;
     line-height: 30px;
     color: var(--black);
+    white-space: nowrap;
 
     &--color {
       opacity: 0.5;
@@ -44,14 +46,18 @@
     padding-right: 24px;
   }
 
+  &__block {
+    margin-left: 40px;
+  }
+
   &__discount {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   &__percent {
     font-weight: 500;
     font-size: 40px;
-    line-height: 130%;
+    line-height: 120%;
     text-transform: uppercase;
     color: var(--black);
 

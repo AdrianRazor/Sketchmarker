@@ -24,6 +24,13 @@
   &--h60 {
     height: 60px;
   }
+
+  &--icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    fill: var(--white);
+  }
 }
 
 @media (max-width: 767px) {

@@ -41,10 +41,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   var tabProductInfo = document.querySelector(".tab--info");
   var tabProductReviews = document.querySelector(".tab--review");
-  var tabProductBlog = document.querySelector(".tab--blog");
+  var tabBlog = document.querySelector(".tab--blog");
+  var tabAccount = document.querySelector(".tab--account");
   tabProductInfo ? handleTab(tabProductInfo) : -1;
   tabProductReviews ? handleTab(tabProductReviews) : -1;
-  tabProductBlog ? handleTab(tabProductBlog) : -1;
+  tabBlog ? handleTab(tabBlog) : -1;
+  tabAccount ? handleTab(tabAccount) : -1;
 
   function handleTab(id) {
     var tabHead = id.querySelectorAll(".tab__item");

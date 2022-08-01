@@ -1,0 +1,45 @@
+.achieve {
+  padding-top: 57px;
+  padding-bottom: 80px;
+  background-color: var(--line);
+
+  &__title {
+    text-align: center;
+    margin-bottom: 43px;
+  }
+
+  &__body {
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px 0;
+  }
+
+  &__number {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130%;
+    color: #bebebe;
+    white-space: nowrap;
+  }
+
+  &__text {
+    max-width: 190px;
+    width: 100%;
+
+    font-size: 18px;
+    line-height: 115%;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
