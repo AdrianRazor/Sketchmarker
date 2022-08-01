@@ -772,6 +772,69 @@
       </div>
     </footer>
 
+    <div class="modal hidden">
+      <div class="modal__window">
+        <div class="modal__header">
+          <h3 class="title modal__title">проверка выполненного задания</h3>
+        </div>
+        <div class="form modal__form">
+          <div class="form__upload">
+            <svg class="form__icon" width="49" height="40">
+              <use xlink:href="img/sprite.svg#cloud"></use>
+            </svg>
+            <p class="form__text">
+              File formats: jpg, jpeg, gif, png. The file size upload limit is
+              10 MB Drag the file to the field or
+              <span class="form__text--color">select from disk</span>
+              <br />
+              Recommended image size is 1600x1040px
+            </p>
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="profileUrl"
+              >Вставить сылку на профиль:</label
+            >
+            <input
+              class="form__field"
+              type="url"
+              name="profileUrl"
+              id="profileUrl"
+            />
+          </div>
+          <div class="form__wrapper">
+            <div class="form__row">
+              <label class="form__label form__label--fb" for="profileUrl">
+                Facebook
+              </label>
+              <input
+                class="form__field"
+                type="url"
+                name="profileUrl"
+                id="profileUrl"
+              />
+            </div>
+            <div class="form__row">
+              <label class="form__label form__label--inst" for="profileUrl">
+                Instagram
+              </label>
+              <input
+                class="form__field"
+                type="url"
+                name="profileUrl"
+                id="profileUrl"
+              />
+            </div>
+          </div>
+          <button class="btn btn--h60 form__btn">Сохранить</button>
+        </div>
+        <button class="modal__close">
+          <svg width="26" height="26">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
     <script src="js/main.js"></script>
   </body>
 </html>
