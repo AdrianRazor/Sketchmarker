@@ -1,0 +1,76 @@
+.user {
+  padding-top: 40px;
+  padding-bottom: 53px;
+
+  &__title {
+    margin-bottom: 56px;
+  }
+
+  &__body {
+    display: flex;
+    gap: 0 50px;
+  }
+
+  &__about {
+    display: flex;
+    gap: 0 25px;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: var(--black);
+
+    &--color {
+      opacity: 0.5;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+  }
+
+  &__btn {
+    font-size: 13px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    width: initial;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  &__discount {
+    margin-bottom: 20px;
+  }
+
+  &__percent {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: var(--black);
+
+    display: flex;
+    align-items: center;
+    gap: 0 6px;
+
+    &--text {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 130%;
+
+      display: block;
+      margin-top: 4px;
+    }
+  }
+
+  &__link {
+    font-size: 15px;
+    color: var(--blue);
+  }
+}

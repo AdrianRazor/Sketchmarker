@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/main.min.css" />
-    <title>Blog</title>
+    <title>Account</title>
   </head>
 
   <body>
@@ -67,88 +67,64 @@
     </header>
 
     <main class="main">
-      <section class="blog">
+      <section class="user">
         <div class="container">
-          <ul class="crumbs blog__crumbs">
-            <li class="crumbs__item">
-              <a href="#" class="crumbs__link">Home</a>
-            </li>
-            <li class="crumbs__item">
-              <a href="#" class="crumbs__link">Blog</a>
-            </li>
-          </ul>
-          <h1 class="title title--page blog__title">блог</h1>
-        </div>
-      </section>
-
-      <section class="tab tab--blog">
-        <div class="container container">
-          <ul class="tab__head">
-            <li class="tab__item active">2022</li>
-            <li class="tab__item">2021</li>
-            <li class="tab__item">2020</li>
-            <li class="tab__item">2019</li>
-            <li class="tab__item">2018</li>
-          </ul>
-          <div class="tab__body year active">
-            <ul class="year__body">
-              <li class="year__item">
-                <img src="img/product-1.jpg" alt="blog img" />
-                <a href="#" class="btn year__btn">Читать</a>
-              </li>
-              <li class="year__item">
-                <img src="img/blog-1.jpg" alt="blog img" />
-                <a href="#" class="btn year__btn">Читать</a>
-              </li>
-              <li class="year__item">
-                <img src="img/blog-2.jpg" alt="blog img" />
-                <a href="#" class="btn year__btn">Читать</a>
-              </li>
-              <li class="year__item">
-                <img src="img/blog-2.jpg" alt="blog img" />
-                <a href="#" class="btn year__btn">Читать</a>
-              </li>
-              <li class="year__item">
-                <img src="img/product-1.jpg" alt="blog img" />
-                <a href="#" class="btn year__btn">Читать</a>
-              </li>
-              <li class="year__item">
-                <img src="img/blog-1.jpg" alt="blog img" />
-                <a href="#" class="btn year__btn">Читать</a>
-              </li>
-            </ul>
+          <h1 class="title user__title">личный кабинет</h1>
+          <div class="user__body">
+            <div class="user__block">
+              <div class="user__about">
+                <p class="user__text user__text--color">
+                  Ваше имя:
+                  <br />
+                  Контактный телефон:
+                  <br />
+                  Электронная почта:
+                  <br />
+                  Адрес доставки:
+                </p>
+                <p class="user__text">
+                  Петренко Генадий Викторович
+                  <br />
+                  +7 (947) 888-88-88
+                  <br />
+                  mypos@mail.rut
+                  <br />
+                  Москва. ул. 50 лет Октября дом 45, кв 98, подъезд 3.
+                </p>
+              </div>
+              <div class="user__buttons">
+                <button class="btn user__btn">редактировать профиль</button>
+                <button class="btn user__btn">изменить пароль</button>
+              </div>
+            </div>
+            <div class="user__block">
+              <div class="user__discount">
+                <p class="user__percent">
+                  5%
+                  <span class="user__percent--text">
+                    ваша
+                    <br />
+                    скидка
+                  </span>
+                </p>
+                <a class="user__link" href="#">Дисконтная система</a>
+              </div>
+              <div class="user__bonus">
+                <p class="user__percent">
+                  1576
+                  <span class="user__percent--text">
+                    бонусных
+                    <br />
+                    бала
+                  </span>
+                </p>
+                <a class="user__link" href="#">Бонусная программа</a>
+              </div>
+            </div>
+            <div class="avatar avatar--user">
+              <img src="img/artist.jpg" alt="artist" />
+            </div>
           </div>
-          <div class="tab__body">
-            <h2 class="title" style="margin: 70px 100px 400px">2021</h2>
-          </div>
-          <div class="tab__body">
-            <h2 class="title" style="margin: 70px 100px 400px">2020</h2>
-          </div>
-          <div class="tab__body">
-            <h2 class="title" style="margin: 70px 100px 400px">2019</h2>
-          </div>
-          <div class="tab__body">
-            <h2 class="title" style="margin: 70px 100px 400px">2018</h2>
-          </div>
-        </div>
-      </section>
-
-      <section class="subscribe">
-        <div class="container subscribe__container">
-          <h2 class="title subscribe__title">Let's Keep In Touch</h2>
-          <p class="text subscribe__text">
-            Subscribe to receive special offers, giveaways, and exclusive deals.
-          </p>
-          <form class="subscribe__form" action="#" method="post">
-            <input
-              class="subscribe__input"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="hello@gmail.com"
-            />
-            <button class="btn btn--h60 subscribe__btn">Subscribe</button>
-          </form>
         </div>
       </section>
     </main>
